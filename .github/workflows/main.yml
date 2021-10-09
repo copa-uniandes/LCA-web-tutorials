@@ -20,9 +20,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
     # Install dependencies
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
@@ -35,11 +32,15 @@ jobs:
         pip install jupyter-book
         PATH="${PATH}:${HOME}/.local/bin"
     # Clone LCA course content
+
     - name: Get book content
-      run: |
-        cd LCA-book
-        git clone git@github.com:copa-uniandes/Laboratorio-Computacional-de-Analytics.git
-        cd ..
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      uses: actions/checkout@v2
+      with:
+        repository: copa-uniandes/Laboratorio-Computacional-de-Analytics
+        token: ${{ secrets.ACCESS_TOKEN }}
+        path: LCA-book
+
     # Build the book
     - name: Build the book
       run: |
@@ -48,5 +49,5 @@ jobs:
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.ACCESS_TOKEN }}
         publish_dir: ./LCA-book/_build/html/
