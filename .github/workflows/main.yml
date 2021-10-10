@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the workflow will run
@@ -40,6 +38,12 @@ jobs:
         repository: copa-uniandes/Laboratorio-Computacional-de-Analytics
         token: ${{ secrets.ACCESS_TOKEN }}
         path: LCA-book
+
+    - name: Install dependencies
+      run: |
+        pwd
+        ls -a
+        ls LCA-book -a
 
     # Build the book
     - name: Build the book
