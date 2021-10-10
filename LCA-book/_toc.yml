@@ -3,8 +3,8 @@ root: intro.md
 parts:
 - caption: "Tutoriales Módulo 1"
   chapters:
-  - file: ../Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU1/TUTORIAL - Bienvenida a Jupyter Notebook.ipynb
-  - file: ../Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU2/TUTORIAL - Estructuras de datos.ipynb 
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU1/TUTORIAL - Bienvenida a Jupyter Notebook.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU2/TUTORIAL - Estructuras de datos.ipynb 
 - caption: "Tutoriales Módulo 2"
   chapters:
-  - file: ../Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.TU1/TUTORIAL - Librerias para manejo de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.TU1/TUTORIAL - Librerias para manejo de datos.ipynb
