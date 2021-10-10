@@ -15,10 +15,17 @@ jobs:
   deploy-book:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checkout this repo
     - uses: actions/checkout@v2
+    # Checkout upstream jupyter content
+    - uses: actions/checkout@v2
+      with:
+        repository: copa-uniandes/Laboratorio-Computacional-de-Analytics
+        token: ${{ secrets.ACCESS_TOKEN }}
+        path: Laboratorio-Computacional-de-Analytics
     
     # Install dependencies
     - name: Set up Python 3.7
@@ -30,15 +37,6 @@ jobs:
         sudo apt-get install python3-pip
         pip install jupyter-book
         PATH="${PATH}:${HOME}/.local/bin"
-    
-    # Clone LCA course content
-    - name: Get book content
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      uses: actions/checkout@v2
-      with:
-        repository: copa-uniandes/Laboratorio-Computacional-de-Analytics
-        token: ${{ secrets.ACCESS_TOKEN }}
-        path: Laboratorio-Computacional-de-Analytics
 
     - name: Explor directory
       run: |
