@@ -25,7 +25,7 @@ jobs:
       with:
         repository: copa-uniandes/Laboratorio-Computacional-de-Analytics
         token: ${{ secrets.ACCESS_TOKEN }}
-        path: Laboratorio-Computacional-de-Analytics
+        path: LCA-book/Laboratorio-Computacional-de-Analytics
     
     # Install dependencies
     - name: Set up Python 3.7
