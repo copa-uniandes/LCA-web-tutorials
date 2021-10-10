@@ -1,0 +1,40 @@
+# Book settings
+title: Repositorio de Optimización
+author: Equipo de Optimización
+logo: _static/logo-uniandes.png
+
+repository:
+  url: https://github.com/mantimantilla/LCA-web-tutorials
+  path_to_book: LCA-book
+  branch: main
+
+launch_buttons:
+  notebook_interface: "classic"
+  binderhub_url: "https://mybinder.org"
+  thebe: true
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+html:
+  favicon: _static/icon.png
+  home_page_in_navbar: false
+  use_repository_button: true
+  use_issues_button: true
+  extra_navbar: "" #Removes 'Powered by Jupyter Book' from left navbar.
+
+myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    # - deflist
+    - dollarmath
+    # - html_admonition
+    # - html_image
+    - linkify
+    # - replacements
+    # - smartquotes
+    - substitution
+
+execute:
+  execute_notebooks: 'off'
