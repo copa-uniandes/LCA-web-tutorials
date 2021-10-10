@@ -37,7 +37,7 @@ jobs:
       with:
         repository: copa-uniandes/Laboratorio-Computacional-de-Analytics
         token: ${{ secrets.ACCESS_TOKEN }}
-        path: LCA-book
+        path: ./LCA-book/Laboratorio-Computacional-de-Analytics/
 
     - name: Install dependencies
       run: |
