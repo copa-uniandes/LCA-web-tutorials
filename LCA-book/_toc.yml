@@ -1,6 +1,9 @@
 format: jb-book
 root: intro.md
 parts:
+- caption: "Lecturas Módulo 1"
+  chapters:
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE1/Syllabus.ipynb
 - caption: "Tutoriales Módulo 1"
   chapters:
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU1/TUTORIAL - Bienvenida a Jupyter Notebook.ipynb
