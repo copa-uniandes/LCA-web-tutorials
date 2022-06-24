@@ -9,7 +9,6 @@ repository:
   branch: main
 
 launch_buttons:
-  binderhub_url: false
   thebe: true
 
 latex:
@@ -19,8 +18,8 @@ latex:
 html:
   favicon: _static/icon.png
   home_page_in_navbar: false
-  use_repository_button: true
-  use_issues_button: true
+  use_repository_button: false
+  use_issues_button: false
   extra_navbar: "" #Removes 'Powered by Jupyter Book' from left navbar.
 
 myst_enable_extensions:
