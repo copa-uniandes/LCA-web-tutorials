@@ -4,16 +4,27 @@ parts:
 - caption: "Lecturas Módulo 1"
   chapters:
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE1/LECTURA - Syllabus.ipynb
-  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE2/LECTURA - Programacion en analitica de datos.ipynb 
-  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE3/LECTURA - Por que Python.ipynb 
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE2/LECTURA - Programacion en analitica de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE3/LECTURA - Por que Python.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.LE1/LECTURA - Algoritmica y analitica de datos.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.LE1/LECTURA - Estructurar proyectos a partir de funciones.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S4 - Explorar, visualizar, y modificar bases de datos/S4.LE1/LECTURA - Flujo analitica Python.ipynb
-  
 - caption: "Tutoriales Módulo 1"
   chapters:
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU1/TUTORIAL - Bienvenida a Jupyter Notebook.ipynb
-  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU2/TUTORIAL - Estructuras de datos.ipynb 
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU2/TUTORIAL - Estructuras de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU1/TUTORIAL - Funciones.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU2/TUTORIAL - Manejo de archivos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU3/TUTORIAL - Visualizacion basica.ipynb 
+  - file: Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.TU1/TUTORIAL - Librerias para manejo de datos.ipynb
 - caption: "Tutoriales Módulo 2"
   chapters:
   - file: Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.TU1/TUTORIAL - Librerias para manejo de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S4 - Explorar, visualizar, y modificar bases de datos/S4.TU1/TUTORIAL - Explorar bases de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S4 - Explorar, visualizar, y modificar bases de datos/S4.TU2/TUTORIAL - Visualizacion intermedia.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S4 - Explorar, visualizar, y modificar bases de datos/S4.TU3/TUTORIAL - Modificar bases de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S5 - Limpiar y unir bases de datos/S5.TU1/TUTORIAL - Limpiar bases de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S5 - Limpiar y unir bases de datos/S5.TU2/TUTORIAL - Unir bases de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S6 - Visualizacion e interactividad/S6.TU1/TUTORIAL - Visualizacion.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S6 - Visualizacion e interactividad/S6.TU2/TUTORIAL - Interactividad.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S7 - Herramientas para el analisis estadistico/S7.TU1/TUTORIAL - Herramientas para el analisis estadistico.ipynb

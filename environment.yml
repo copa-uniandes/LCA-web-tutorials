@@ -1,0 +1,19 @@
+name: lca-environment
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - pandas
+  - networkx
+  - pulp
+  - openpyxl
+  - lxml
+  - requests 
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - plotly
+  - panel
+  - ipywidgets
+  - pyspark
+  - jupytext>=0.16
