@@ -1,6 +1,6 @@
 # Book settings
 title: Repositorio de LCA
-author: Equipo ddocente LCA
+author: equipo docente LCA
 logo: _static/logo-uniandes.png
 
 repository:
@@ -9,6 +9,7 @@ repository:
   branch: main
 
 launch_buttons:
+  binderhub_url: false
   thebe: true
 
 latex:
