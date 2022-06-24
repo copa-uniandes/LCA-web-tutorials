@@ -6,7 +6,7 @@ parts:
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE1/LECTURA - Syllabus.ipynb
 - caption: "Lecturas"
   chapters:
-  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE2/LECTURA - Programacion en analitica de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE2/LECTURA - Programación en analítica de datos.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE3/LECTURA - Por que Python.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.LE1/LECTURA - Algoritmica y analitica de datos.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.LE1/LECTURA - Estructurar proyectos a partir de funciones.ipynb
