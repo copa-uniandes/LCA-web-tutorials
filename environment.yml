@@ -1,4 +1,4 @@
-name: lca-environment
+name: pad-environment
 channels:
   - conda-forge
   - anaconda
