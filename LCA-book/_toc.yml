@@ -1,7 +1,7 @@
 format: jb-book
 root: intro.md
 parts:
-- caption: "Lecturas Módulo 1"
+- caption: "Lecturas"
   chapters:
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE1/LECTURA - Syllabus.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE2/LECTURA - Programacion en analitica de datos.ipynb
@@ -16,7 +16,6 @@ parts:
   - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU1/TUTORIAL - Funciones.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU2/TUTORIAL - Manejo de archivos.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU3/TUTORIAL - Visualizacion basica.ipynb 
-  - file: Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.TU1/TUTORIAL - Librerias para manejo de datos.ipynb
 - caption: "Tutoriales Módulo 2"
   chapters:
   - file: Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.TU1/TUTORIAL - Librerias para manejo de datos.ipynb
