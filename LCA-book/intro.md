@@ -1,10 +1,10 @@
-# Repositorio de LCA
+# Repositorio de Programación en Analítica de Datos
 
-Bienvenidos al repositorio de tutoriales del Laboratorio Computacional de Analytics. El objetivo de este repositorio es el de acompañar las clases del curso con ejercicios y tutoriales que los estudiantes puedan revisar como material obligatorio. Para resolver los ejercicios, usaremos _Python_ como lenguaje de programación y los paquetes `pandas`, `numpy` y `matplotlib`.
+Bienvenid@ al repositorio de lecturas y tutoriales para la Programación en Analítica de Datos. El objetivo de este repositorio es proveerte con material de apoyo el cual podrás revisar de manera autónoma. El contenido está orientado al uso de _Python_ como lenguaje de programación para la analítica de datos junto con los paquetes `pandas`, `numpy`, `matplotlib`y `sklearn`, entre otros.
 
-En la parte izquierda te encontrarás con algunas secciones que corresponden a los temas del curso.
-La idea de esta división es que puedas entender el desarrollo de los ejercicios y que luego puedas usar el conocimiento adquirido para desarrollar los talleres. Los códigos que encuentres en este compilado, los puedes copiar y pegar en un script de _Python_ y modificarlos con un ambiente de desarrollo como _Spyder_ o _Jupyter_. Alternativamente, puedes interactuar directamente con el código a través de tu explorador por medio de [Binder](https://mybinder.org/v2/gh/copa-uniandes/optimizacion/master) para _Jupyter_.
+En la parte izquierda encontrarás la tabla de contenidos de este libro virtual, estructurada según los temas cubiertos en el curso.
+La idea de este espacio es que puedas aprender la teoría y complementar con ejemplos, para que luego puedas ponerla en práctica en el desarrollo de los talleres. Puedes interactuar directamente con el código por medio de celdas interactivas. Habilítalas haciendo clic en el botón de _Live code_ (símbolo de un cohete en el menú superior). También puedes copiar y pegar el código en un script de _Python_ y modificarlo con un ambiente de desarrollo como _Spyder_ o _Jupyter_.
 
-Los tutoriales están organizados por temas, empezando desde los más sencillas e incrementando poco a poco el nivel de complejidad. Si no estás seguro de cuáles son los tutoriales que puedes resolver hasta el momento puedes consultarle a un asistente o instructor del curso correspondiente al respecto.
+El contenido está organizado por temas, empezando desde los más sencillos e incrementando poco a poco el nivel de complejidad. Si no estás seguro de cuáles son los tutoriales que puedes resolver hasta el momento, puedes consultarle a un asistente o instructor del curso al respecto.
 
 Sin más, ¡a hacer ciencia de datos!
