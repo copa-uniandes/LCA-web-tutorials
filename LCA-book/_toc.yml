@@ -3,7 +3,13 @@ root: intro.md
 parts:
 - caption: "Lecturas Módulo 1"
   chapters:
-  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE1/Syllabus.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE1/LECTURA - Syllabus.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE2/LECTURA - Programacion en analitica de datos.ipynb 
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.LE3/LECTURA - Por que Python.ipynb 
+  - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.LE1/LECTURA - Algoritmica y analitica de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S3 - Librerias para manejo de datos/S3.LE1/LECTURA - Estructurar proyectos a partir de funciones.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S4 - Explorar, visualizar, y modificar bases de datos/S4.LE1/LECTURA - Flujo analitica Python.ipynb
+  
 - caption: "Tutoriales Módulo 1"
   chapters:
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU1/TUTORIAL - Bienvenida a Jupyter Notebook.ipynb
