@@ -38,12 +38,6 @@ jobs:
         pip install jupyter-book
         PATH="${PATH}:${HOME}/.local/bin"
 
-    - name: Explor directory
-      run: |
-        pwd
-        ls -a
-        ls PAD-book -a
-
     # Build the book
     - name: Build the book
       run: |
