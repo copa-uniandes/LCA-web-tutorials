@@ -38,10 +38,12 @@ jobs:
         pip install jupyter-book
         PATH="${PATH}:${HOME}/.local/bin"
 
-    # Deletes all notebooks that are not of type TUTORIAL and are not of type LECTURA 
-    - name: Remove unused notebooks for book build
+    # Deletes all notebooks that are not of type TUTORIAL and are not of type LECTURA
+    # Removes all markdown files that are not the book intro
+    - name: Remove unused notebooks and md files for book build
       run: |
         find . -name '*.ipynb' ! -name 'TUTORIAL*' ! -name 'LECTURA*' -type f -delete
+        find . -name '*.md' ! -name 'intro.md' -type f -delete
 
     # Build the book
     - name: Build the book
