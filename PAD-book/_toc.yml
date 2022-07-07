@@ -12,6 +12,7 @@ parts:
   chapters:
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU1/TUTORIAL - Bienvenida a Jupyter y Python.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU2/TUTORIAL - Estructuras de datos.ipynb
+  - file: Laboratorio-Computacional-de-Analytics/S1 - Bienvenida, estructuras de datos y de control/S1.TU3/TUTORIAL - Estructuras de control.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU1/TUTORIAL - Funciones.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU2/TUTORIAL - Manejo de archivos.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S2 - Funciones, manejo de archivos y visualización/S2.TU3/TUTORIAL - Visualizacion basica.ipynb 
