@@ -3,11 +3,11 @@ title: Repositorio de PAD
 author: equipo docente LCA.
 logo: _static/logo-uniandes.png
 
-#repository:
-#  url: https://github.com/copa-uniandes/PAD-web-tutorials
-#  path_to_book: PAD-book
-#  branch: main
-#
+repository:
+  url: https://github.com/copa-uniandes/PAD-web-tutorials
+  path_to_book: PAD-book
+  branch: main
+
 launch_buttons:
   thebe: true
 
