@@ -1,4 +1,4 @@
-name: CI
+name: Pull changes and deploy
 
 # Controls when the workflow will run
 on:
@@ -11,17 +11,39 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  update-submodule:
+    name: Update LCA mini
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout this repo
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+      
+      - name: Update submodules
+        run: |
+          git submodule update --init --recursive
+          
+      - name: Push
+        run: |
+          git config user.name "Alejandro Mantilla"
+          git config user.email alejandromantillaredondo@gmail.com
+          git add . && git commit -m "Updated submodules." && git push
+  
   # This workflow contains a single job called "build"
   deploy-book:
+    name: Build and publish book
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checkout this repo
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     # Checkout upstream jupyter content
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         repository: copa-uniandes/Laboratorio-Computacional-de-Analytics
         token: ${{ secrets.ACCESS_TOKEN }}
