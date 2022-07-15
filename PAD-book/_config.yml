@@ -9,6 +9,8 @@ repository:
   branch: main
 
 launch_buttons:
+  notebook_interface: "classic"
+  binderhub_url: "https://mybinder.org"
   thebe: true
 
 latex:
