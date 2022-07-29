@@ -19,12 +19,12 @@ dependencies:
   - asttokens=2.0.5=pyhd8ed1ab_0
   - attrs=21.4.0=pyhd8ed1ab_0
   - aws-c-common=0.4.57=he6710b0_1
-  - aws-c-event-stream=0.1.6=h2531618_5	
+  - aws-c-event-stream=0.1.6=h2531618_5
   - aws-checksums=0.1.9=he6710b0_0
   - aws-sdk-cpp=1.8.185=hce553d0_0
   - babel=2.10.3=pyhd8ed1ab_0
   - backcall=0.2.0=pyh9f0ad1d_0
-  - backports=1.0=py_2rm
+  - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - beautifulsoup4=4.11.1=pyha770c72_0
   - bleach=5.0.1=pyhd8ed1ab_0
