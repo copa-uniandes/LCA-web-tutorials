@@ -37,7 +37,9 @@ myst_enable_extensions:
     - substitution
 
 execute:
-  execute_notebooks: 'off'
+#  execute_notebooks: "off"
+  execute_notebooks: force
+  allow_errors: true
 
 sphinx:
   config:

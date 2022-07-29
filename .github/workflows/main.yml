@@ -6,10 +6,10 @@ on:
   push:
     branches: [ main ]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows running this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# This job updates the repos dependency on upstream LCA-mini.
 jobs:
   update-submodule:
     name: Update LCA mini
@@ -22,43 +22,40 @@ jobs:
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
       
+      # Update upstream dependencies to latest commit
       - name: Update submodules
         run: |
           git submodule update --init --recursive
           
+      # A user is needed por pushing the update. If no changes are detected, nothing gets pushed.
       - name: Push
         run: |
           git config user.name "Alejandro Mantilla"
           git config user.email alejandromantillaredondo@gmail.com
           git diff --quiet && git diff --staged --quiet || (git commit -am "Updated submodules." --allow-empty && git push)
   
-  # This workflow contains a single job called "build"
+  # This job executes all notebooks, builds the book and publishes it to gh-pages
   deploy-book:
     name: Build and publish book
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checkout this repo
     - uses: actions/checkout@v3
-    # Checkout upstream jupyter content
+    # Checkout upstream jupyter content (replaces LCA-mini, only for build)
     - uses: actions/checkout@v3
       with:
         repository: copa-uniandes/Laboratorio-Computacional-de-Analytics
         token: ${{ secrets.ACCESS_TOKEN }}
         path: PAD-book/Laboratorio-Computacional-de-Analytics
 
-    # Install dependencies
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+    # Install python and book dependencies
+    - name: Set up Micromamba
+      uses: mamba-org/provision-with-micromamba@main
       with:
-        python-version: 3.7
-    - name: Install dependencies
-      run: |
-        sudo apt-get install python3-pip
-        pip install jupyter-book
-        PATH="${PATH}:${HOME}/.local/bin"
+        environment-file: ./PAD-book/build-environment.yml
+        cache-env: true
 
     # Deletes all notebooks that are not of type TUTORIAL and are not of type LECTURA
     # Removes all markdown files that are not the book intro
@@ -67,8 +64,9 @@ jobs:
         find . -name '*.ipynb' ! -name 'TUTORIAL*' ! -name 'LECTURA*' -type f -delete
         find . -name '*.md' ! -name 'intro.md' -type f -delete
 
-    # Build the book
+    # Build the book, requires bash to initialize autorun scripts for mamba, hence bash -l {0}
     - name: Build the book
+      shell: bash -l {0}
       run: |
         jupyter-book build --all ./PAD-book
 
@@ -78,3 +76,4 @@ jobs:
       with:
         github_token: ${{ secrets.ACCESS_TOKEN }}
         publish_dir: ./PAD-book/_build/html/
+
