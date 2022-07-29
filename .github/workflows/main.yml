@@ -54,9 +54,10 @@ jobs:
     - name: Set up Micromamba
       uses: mamba-org/provision-with-micromamba@main
       with:
-        environment-file: ./PAD-book/build-environment.yml
+        environment-file: ./PAD-book/build-environment.txt
+        environment-name: JBookEnv
         cache-env: true
-        channel-priority: flexible
+
 
     # Deletes all notebooks that are not of type TUTORIAL and are not of type LECTURA
     # Removes all markdown files that are not the book intro
