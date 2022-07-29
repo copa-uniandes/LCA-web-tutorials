@@ -8,10 +8,10 @@ repository:
   path_to_book: PAD-book
   branch: main
 
-# launch_buttons:
-  # notebook_interface: "classic"
-  # binderhub_url: "https://mybinder.org"
-  # thebe: true
+launch_buttons:
+  notebook_interface: "classic"
+  binderhub_url: "https://mybinder.org"
+  thebe: true
 
 latex:
   latex_documents:
