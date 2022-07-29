@@ -54,7 +54,7 @@ jobs:
     - name: Set up Micromamba
       uses: mamba-org/provision-with-micromamba@main
       with:
-        environment-file: ./PAD-book/build-environment.txt
+        environment-file: ./PAD-book/build-environment.yml
         environment-name: JBookEnv
         cache-env: true
 
