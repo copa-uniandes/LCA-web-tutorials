@@ -26,7 +26,7 @@ jobs:
       - name: Update submodules
         run: |
           git submodule update --init --recursive
-          git pull --recurse-submodules
+          git submodule update --recursive --remote
           
       # A user is needed por pushing the update. If no changes are detected, nothing gets pushed.
       - name: Push
