@@ -32,7 +32,8 @@ jobs:
         run: |
           git config user.name "Alejandro Mantilla"
           git config user.email alejandromantillaredondo@gmail.com
-          git diff --quiet && git diff --staged --quiet || (git commit -am "Updated submodules." --allow-empty && git push)
+          git add .
+          git diff --staged --quiet || (git commit -m "Updated submodules." && git push)
   
   # This job executes all notebooks, builds the book and publishes it to gh-pages
   deploy-book:
