@@ -25,6 +25,7 @@ jobs:
       # Update upstream dependencies to latest commit
       - name: Update submodules
         run: |
+          git submodule update --init --recursive
           git pull --recurse-submodules
           
       # A user is needed por pushing the update. If no changes are detected, nothing gets pushed.
