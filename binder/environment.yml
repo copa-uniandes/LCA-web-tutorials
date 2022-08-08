@@ -17,3 +17,4 @@ dependencies:
   - ipywidgets
   - pyspark
   - jupytext>=0.16
+  - jupyter-server-proxy
