@@ -1,0 +1,11 @@
+#Download Apache Spark
+wget https://downloads.apache.org/spark/spark-3.3.0/spark-3.3.0-bin-hadoop2.tgz
+tar -xzf spark-3.3.0-bin-hadoop2.tgz
+
+#Tidy up
+rm spark-3.3.0-bin-hadoop2.tgz
+
+SPARK_HOME=$HOME/spark-3.3.0-bin-hadoop2
+
+#Jupyter server proxy
+jupyter serverextension enable --sys-prefix jupyter_server_proxy
