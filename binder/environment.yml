@@ -5,7 +5,6 @@ channels:
 dependencies:
   - pandas
   - networkx
-  - pulp
   - openpyxl
   - lxml
   - requests
@@ -17,4 +16,4 @@ dependencies:
   - ipywidgets
   - pyspark
   - jupytext>=0.16
-  - jupyter-server-proxy
+  - openjdk

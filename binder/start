@@ -1,6 +1,0 @@
-#!/bin/bash
-
-SPARK_HOME=$HOME/spark-3.3.0-bin-hadoop2
-export PATH=$SPARK_HOME/bin:$PATH
-
-exec "$@" 
