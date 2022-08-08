@@ -10,6 +10,6 @@ __Course content__:
 
 https://github.com/copa-uniandes/Laboratorio-Computacional-de-Analytics
 
-__Course content partial mirror__
+__Course content partial mirror__:
 
 https://github.com/copa-uniandes/Laboratorio-Computacional-de-Analytics-Mini
