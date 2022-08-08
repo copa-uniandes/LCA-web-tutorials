@@ -8,7 +8,7 @@ dependencies:
   - pulp
   - openpyxl
   - lxml
-  - requests 
+  - requests
   - seaborn
   - scikit-learn
   - statsmodels
