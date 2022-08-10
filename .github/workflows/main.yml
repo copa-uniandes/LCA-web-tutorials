@@ -49,7 +49,7 @@ jobs:
           git config user.name "Alejandro Mantilla"
           git config user.email alejandromantillaredondo@gmail.com
           git add .
-          git diff --staged --quiet || (git commit -m "Updated submodules." && git push)
+          git diff --staged --quiet || (git commit -m "Updated submodules. [skip ci]" && git push)
     
       # Install python and book build dependencies
       - name: Set up Micromamba
