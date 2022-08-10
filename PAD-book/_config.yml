@@ -11,7 +11,7 @@ repository:
 launch_buttons:
   notebook_interface: "jupyterlab"
   binderhub_url: "https://mybinder.org"
-  thebe: false
+  thebe: true
 
 latex:
   latex_documents:
