@@ -6,6 +6,7 @@ dependencies:
   - pandas
   - networkx
   - openpyxl
+  - xlrd
   - lxml
   - requests
   - seaborn
