@@ -18,3 +18,4 @@ dependencies:
   - pyspark
   - jupytext>=0.16
   - openjdk
+  - cloudpickle
