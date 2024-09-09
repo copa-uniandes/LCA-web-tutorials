@@ -24,7 +24,7 @@ parts:
   - file: Laboratorio-Computacional-de-Analytics/S4 - Explorar, modificar y visualizar bases de datos/S4.TU3/TUTORIAL - Visualizacion intermedia.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S5 - Extraer, transformar y cargar datos/S5.TU1/TUTORIAL - Limpiar bases de datos.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S5 - Extraer, transformar y cargar datos/S5.TU2/TUTORIAL - Unir bases de datos.ipynb
-  - file: Laboratorio-Computacional-de-Analytics/S5 - Extraer, transformar y cargar datos/S5.TU3/TUTORIAL - Extraer, transformar y cargar datos-link.md  # New markdown file that links to HTML
+  - file: Laboratorio-Computacional-de-Analytics/S5 - Extraer, transformar y cargar datos/S5.TU3/TUTORIAL - Extraer, transformar y cargar datos.md  # New markdown file that links to HTML
   - file: Laboratorio-Computacional-de-Analytics/S6 - Herramientas para el analisis estadistico/S6.TU1/TUTORIAL - Herramientas para analisis estadistico.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S7 - Visualizacion e interactividad/S7.TU1/TUTORIAL - Visualizacion avanzada.ipynb
   - file: Laboratorio-Computacional-de-Analytics/S7 - Visualizacion e interactividad/S7.TU2/TUTORIAL - Interactividad.ipynb
