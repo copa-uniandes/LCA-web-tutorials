@@ -24,6 +24,8 @@ html:
   use_issues_button: false
   extra_navbar: "" #Removes 'Powered by Jupyter Book' from left navbar.
   pdf_viewer: true   # Add this line to enable PDF links to open in the book
+  # Add this line to make sure static HTML files are displayed
+  static_page_extensions: ["html"]
 
 myst_enable_extensions:
     - amsmath
