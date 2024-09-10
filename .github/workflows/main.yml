@@ -64,7 +64,7 @@ jobs:
       - name: Remove unused notebooks and md files for book build
         run: |
           find . -name '*.ipynb' ! -name 'TUTORIAL*' ! -name 'LECTURA*' -type f -delete
-          find . -name '*.md' ! -name 'intro.md' ! -name 'TUTORIAL - Extraer, transformar y cargar datos-link.md' -type f -delete
+          find . -name '*.md' ! -name 'intro.md' ! -name 'TUTORIAL*' -type f -delete
 
       # Build the book, requires bash to initialize autorun scripts for mamba, hence bash -l {0}
       - name: Build the book
